@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Prac Test Suite" thread-count="3" parallel="tests" verbose="3">
+<test name="Login Page Test">
+		
+		<classes>
+		
+			<class name="com.qa.automationprac.tests.LoginPageTest" />
+		</classes>
+		
+	</test>
+	
+<test name="MyAccounts Page Test">
+		
+		<classes>
+			<class name="com.qa.automationprac.tests.MyAccountPageTest" />
+		</classes>
+	</test>
+	
+<test name="Results Page Test">
+		
+		<classes>
+			<class name="com.qa.automationprac.tests.ResultsPageTest" />
+		</classes>
+	</test>	
+
+
+</suite>
